@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uma criança uma sociedade</title>
+    <link rel="stylesheet" href="style.css">
+	<script type= “text/javascript” src= “JavaScript.js”></script>
+
+<style>
+
+.item {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+
+img {
+     max-width: 100%;
+     height: auto;
+}
+
+button:hover{
+     background-color: var(--preto);
+     color: var(--preto);
+}
+
+</style>
+
+</head>
+<body>
+    
+    <div class="conteudo fundo" id="sessaoInicial">
+        <header>
+            <div class="contido">
+                <div class="logo" >
+                    <img src="img/imagem" alt="" >
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html#sessaoInicial"> Início </a>
+                        </li>
+
+                        <li>
+                            <a href="index.html#sessaoEducacao">Nosso maior objetivo</a>
+                        </li>
+                        <li>
+                            <a href="index.html#sessaoGaleria">Galeria</a>
+                        </li>
+                        <li>
+                            <a href="sobreNos.html#sessaoSobre">Sobre Nós</a>
+                        </li>
+                        <li>
+                            <a href="index.html#sessaoJunte">Junte-se</a>
+                        </li>
+                    </ul>
+                </nav>    
+            </div>
+        </header>
+   
+         <!-----------------Chat----------------->
+
+
+    <div class="scrollable-div">
+         <div class="janela">
+        		 <div class="chat">
+    		<!-- Aqui está a estrutura do chat por mensagem -->
+    		<!-- Mensagens -->
+    		<div class="mensagem">Olá!</div>
+    		<div class="mensagem">Como posso ajudar?</div>
+    		<div class="mensagem">Alguma outra pergunta?</div>
+
+    			<!-- Campo de entrada de texto -->
+    <div class="campo">
+      		<input type="text" placeholder="Digite sua mensagem" />
+      		<div class="Envair"><button><img src="img/Enviar.png"></button></div>
+    	     </div>
+  	</div>
+    </div>
+  
+          <!--------------CFormas de Pagamento-------------------->       
+    
+    <section class="conteudo" id="sessaoDoacao">
+        <div class="contido2">
+            <h2 class="tituloSessao">Doação</h2>
+		<div class="cartao">
+            		<div class="pagamento">	
+            			<div class="conteudoPagamento">
+                			<div class="item">
+                    				<img src="img/payment/Visa.png" alt="">
+                			</div>
+                                    		<!-----item------->
+                 			<div class="item">
+                    				<img src="img/payment/mkesh.png" alt="">
+                			</div>
+                   
+                    				<!-----item------->
+                
+                 			<div class="item">    
+                    				<img src="img/payment/Emola.png" alt="">
+                			</div>
+
+                			<div class="item">
+                    				<img src="img/payment/mpesa.png" alt="">
+                			</div>
+				  </div>
+			      <h3>Se deseja fazer outro tipo de doação! clique neste botão abaixo</h3>
+ 			<a href="#sessaoFormulario">
+			   <div class="Envair"><button><img src="img/Doar.png"></button></div>
+			</a>
+		     </div>
+	       </div>                                       
+        </div>
+
+    </section>
+
+	 <!--------------Formulario-------------------->
+    
+    <section class="conteudo" id="sessaoFormulario">
+        <div class="contido2">
+		<h2 class="tituloSessaof">Formulário</h2>            
+            		<div class="cartao">
+    				<div class="fomulario">	              
+    					<form action="" method="post">
+  						<table border="0">
+		
+    	    					<tr><td colspan="2">
+							<p><legend><strong>Informações Pessoais:</strong></legend></p><br>
+						</td><td colspan="2">
+							<p><legend><strong>Informações da doação:</strong></legend></p><br>
+						</td></tr>
+
+    						<tr><td>
+							<label for="nome">Nome:</label><br>
+    						</td>
+		
+						<td>
+							<input type="text" id="nome" name="nome" required><br>
+						</td><td>
+						
+							<label for="nomeDocao">Nome da doação:</label><br>
+
+    						</td><td>
+							<input type="text" id="nomeDoacao" name="nome" required><br>
+						</td></tr>
+		
+						<tr><td>
+    							<label for="sobrenome">Sobrenome:</label><br>
+						</td>
+		
+						<td>
+    							<input type="text" id="sobrenome" name="sobrenome" required><br>
+						</td><td>
+						
+							<label for="Tipo">Tipo de doação:</label><br>
+
+    						</td><td>
+							<input type="text" id="Tipo" name="Tipo" required><br>
+						</td></tr>
+
+
+		
+						<tr><td>
+	    						<label for="email">E-mail:</label><br>
+						</td>
+		
+						<td>
+    							<input type="email" id="email" name="email" required><br>
+						</td><td>
+						
+							<label for="quantidade">Quantidade:</label><br>
+
+    						</td><td>
+							<input type="text" id="quantidade" name="quant" required><br>
+						</td></tr>
+
+		
+						<tr><td>
+	    						<label for="telefone">Telefone:</label><br>
+						</td>
+		
+						<td>
+   							<input type="tel" id="telefone" name="telefone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{4}" placeholder="258-84-233-7379"><br>
+						</td><td>
+						
+							<label for="local">Local de Levantamento:</label>
+
+    						</td><td>
+							<input type="text" id="local" name="local" required><br>
+						</td></tr>
+		
+						<tr><td>
+	    						<label for="endereco">Endereço:</label><br>
+						</td>
+		
+						<td>
+	    						<input type="text" id="endereco" name="endereco"><br>
+						</td><td>
+						
+							<label for="resop">Responsável ou Encarregado:</label><br>
+
+    						</td><td>
+							<input type="text" id="resop" name="resop" required><br>
+						</td></tr>
+
+		
+						<tr><td>
+	    						<label for="cidade">Cidade:</label><br>
+						</td>
+		
+						<td>
+    							<input type="text" id="cidade" name="cidade"><br>
+						</td><td>
+						
+							<label for="entrega">Data da possível entrega:</label>
+
+    						</td><td>
+							<input type="text" id="entrega" name="entrega" required><br>
+						</td></tr>
+
+		
+						<tr><td>
+    							<label for="pais">País:</label>
+						</td>
+		
+						<td>
+    							<select id="pais" name="pais">
+      								<option value="MZ">Moçambique</option>
+      								<option value="SA">África do Sul</option>
+      								<option value="ZBW">Zimbabwe</option>
+      								<option value="MLW">Malawe</option>
+      								<option value="SZ">Suazilândia</option>
+      								<option value="PT">Portugal</option>
+      								<option value="TZ">Tanzânia</option>
+      								<option value="UEA">EUA</option>
+      								<option value="UK">Inglaterra</option>
+								<option value="OT">Outros</option>
+    							</select><br>
+						</td></tr>
+    		
+  						<tr><td colspan="4"><br>
+    	    	
+    							<p><legend><strong>Comentários:</strong></legend></p> 		
+   							<textarea id="comentarios" name="comentarios" rows="5" cols="120"></textarea><br>
+		
+						</td></tr>
+						<tr><td colspan="4">
+
+							<div class="Envair"><button><img src="img/Enviar.png"></button></div>
+
+						</td></tr>
+					</table>
+				 </form>
+                           </div>
+                     </div>           
+              </div>
+   
+    </section>
+
+    <!-----------------Junte-se------------------------>
+    
+    <section class="junte" id="sessaoJunte">
+        <div class="contido">
+            <div class="tituloJunte">Crie um ambiente mais seguro e acolhedor para as crianças e 
+		a chance de crescer e se desenvolver de maneira saudável e feliz.  
+		& <span>SALVE VIDAS COM O POUCO QUE TENS A OFERECER!</span>
+            </div>
+                <p>
+                Toda doação abre horizonte para essas crianças!
+                </b>
+                </p>
+ 	        <a href="pagina_formulario.html#sessaoDoacao">
+                   <button >Tudo começa daqui!</button> 
+		</a>
+         </div>
+		</br>
+		</br>
+    <!------------------Rodape----------------------->
+    
+    <footer>
+    &copy; 2024 Uma Criança, Uma Sociedade. Todos os direitos reservados
+    </footer>
+</body>
+</html>

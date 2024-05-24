@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uma criança uma sociedade</title>
+    <link rel="stylesheet" href="style.css">
+	<script type= “text/javascript” src= “JavaScript.js”></script>
+
+</head>
+<body>
+    
+    <div class="conteudo fundo" id="sessaoInicial">
+        <header>
+            <div class="contido">
+                <div class="logo" >
+
+                    <img src="img/imagem" alt="" >
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html#sessaoInicial"> Início </a>
+                        </li>
+                        <li>
+			    <a href="index.html#sessaoPrograma">Doar Fundos</a>
+			</li>
+                        <li>
+                            <a href="index.html#sessaoEducacao">Maior Objectivo</a>
+                        </li>
+                        <li>
+                            <a href="index.html#sessaoGaleria">Galeria</a>
+                        </li>
+                        <li>
+                            <a href="pagina_formulario.html#sessaoDoacao">Doar Fundos</a>
+
+                        </li>
+			<li>
+                            <a href="sobreNos.html#sessaoSobre">Sobre Nós</a>
+                        </li>
+
+                        <li>
+                            <a href="index.html#sessaoJunte">Junte-se</a>
+                        </li>
+
+                    </ul>
+                </nav>    
+            </div>
+    </header>
+        
+    <!--------------sobre nos-------------------->
+
+    <section class="conteudo" id="sessaoSobre">
+        <div class="contido">
+            <h2 class="tituloSessao">Sobre Nós</h2>
+              
+            </p>
+            <div class="cartao">
+		<div class="cartaoDoacao">
+                    <div class="titulo">Uma Criança, Uma Sociedade: Unidos por um Futuro Brilhante</div>
+                        <br><br>
+
+				Introdução:<br>
+					Em um mundo onde cada criança é valorizada e seu potencial é reconhecido, uma sociedade extraordinária surge. 
+<br>Unidos por um propósito comum, membros dessa sociedade dedicam seus esforços para garantir que cada criança receba amor, cuidado e oportunidades 
+para um futuro brilhante. Com a convicção de que cada criança merece um caminho promissor, eles se tornam defensores incansáveis, formando a Sociedade "Uma Criança, Uma Sociedade".<br><br>
+
+					Parágrafo 1:<br> Construindo pontes de esperança
+						     A Sociedade "Uma Criança, Uma Sociedade" nasce do desejo profundo de oferecer a todas as crianças 
+a chance de florescer e alcançar seu potencial máximo. Pessoas de todos os cantos se unem, independentemente de origem, raça ou status social, para formar 
+uma comunidade coesa, determinada a construir pontes de esperança para as crianças. Eles acreditam que investir nas crianças é investir em um futuro brilhante para toda a sociedade.<br><br>
+
+					Parágrafo 2:<br> Acessibilidade a cuidados e educação
+						     Uma das prioridades fundamentais da Sociedade é garantir que todas as crianças tenham acesso a cuidados
+ de qualidade e educação adequada. Através de parcerias com organizações e instituições relevantes, eles estabelecem programas abrangentes de assistência à saúde, 
+fornecendo serviços médicos, nutrição adequada e apoio psicológico. Além disso, eles lutam para que cada criança tenha a oportunidade de receber uma educação de qualidade, 
+independentemente de suas circunstâncias.<br><br>
+
+					Parágrafo 3: <br>Empoderamento e mentoria
+						     A Sociedade "Uma Criança, Uma Sociedade" compreende a importância de oferecer às crianças um ambiente de apoio e mentoria.
+ Membros dedicados e voluntários se comprometem a serem modelos inspiradores, orientando e incentivando as crianças a desenvolverem habilidades essenciais, explorar seus talentos 
+e perseguir seus sonhos. Eles capacitam as crianças, lembrando-as constantemente de que seu potencial é ilimitado e que o futuro brilhante que elas desejam está ao seu alcance.<br><br>
+
+					Parágrafo 4:<br> Construindo uma comunidade de solidariedade
+						     Além de cuidar das necessidades individuais das crianças, a sociedade também busca construir uma comunidade de solidariedade em torno delas. 
+Eventos e atividades são organizados regularmente para promover a inclusão, a diversidade e a compreensão mútua. Através do diálogo aberto, do respeito e do apoio mútuo, eles constroem laços duradouros, 
+capacitando as crianças a se sentirem amadas, valorizadas e parte de algo maior.<br><br>
+
+					Conclusão:<br>
+					             A Sociedade "Uma Criança, Uma Sociedade" é uma luz brilhante de esperança, guiando cada criança em direção a um futuro promissor. 
+Unidos por um propósito nobre, eles demonstram que quando uma criança é apoiada, a sociedade inteira se beneficia.
+                                               
+                </div>                     
+           
+        </div>
+    </section>
+    </section>
+    
+
+    <!-----------------Junte-se------------------------>
+    
+    <section class="junte" id="sessaoJunte">
+        <div class="contido">
+            <div class="tituloJunte">Crie um ambiente mais seguro e acolhedor para as crianças e 
+		a chance de crescer e se desenvolver de maneira saudável e feliz. 
+		& <span>SALVE VIDAS COM O POUCO QUE TENS A OFERECER!</span>
+            </div>
+                <p>
+                Toda doação abri horizonte para essas crianças!
+                </b>
+                </p>
+ 	        <a href="pagina_formulario.html#sessaoDoacao">
+                   <button >Tudo começa daqui!</button> 
+		</a>
+         </div>
+		</br>
+		</br>
+    <!------------------Rodape----------------------->
+    
+    <footer>
+    &copy; 2024 Uma Criança, Uma Sociedade. Todos os direitos reservados
+    </footer>
+    </div>
+</body>
+</html>
